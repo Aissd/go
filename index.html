@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>围棋教学导航</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        // Tailwind 自定义配置
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        go: {
+                            primary: '#4B5563',     // 围棋灰
+                            secondary: '#9CA3AF',   // 浅灰
+                            accent: '#FBBF24',      // 琥珀色（棋子色）
+                            dark: '#1F2937',        // 深色背景
+                            light: '#F9FAFB'        // 浅色背景
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'card': '0 4px 20px rgba(0, 0, 0, 0.08)',
+                        'card-hover': '0 8px 30px rgba(0, 0, 0, 0.12)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .transition-height {
+                transition: max-height 0.3s ease-in-out;
+            }
+            .card-gradient {
+                background: linear-gradient(135deg, var(--tw-gradient-stops));
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- 页面头部 -->
+    <header class="bg-go-dark text-white py-6 shadow-md">
+        <div class="container mx-auto px-4">
+            <h1 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold flex items-center">
+                <i class="fa fa-chess-board mr-3 text-go-accent"></i>
+                围棋教学导航
+            </h1>
+            <p class="text-go-secondary mt-2">系统学习围棋的全阶段知识点</p>
+        </div>
+    </header>
+
+    <!-- 主要内容区 -->
+    <main class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="category-container">
+            <!-- 分类卡片将通过JS动态生成 -->
+        </div>
+    </main>
+
+    <!-- 页面底部 -->
+    <footer class="bg-go-dark text-white py-6 mt-12">
+        <div class="container mx-auto px-4 text-center text-go-secondary">
+            <p>© 2026 围棋教学导航 | 专注围棋教学与学习</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
