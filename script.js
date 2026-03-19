@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		// 创建主卡片元素
 		const card = document.createElement('div');
 		card.className = 'bg-white rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300 overflow-hidden';
-		
+		card.style.marginBottom = '20px';
 		// 卡片头部（一级分类）
 		const cardHeader = document.createElement('div');
 		cardHeader.className = `card-gradient ${category.color} text-white p-6 cursor-pointer flex justify-between items-center`;
