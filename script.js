@@ -53,7 +53,9 @@ document.addEventListener('DOMContentLoaded', () => {
 			const toggleIcon = document.getElementById(`toggle-${category.id}`);
 			
 			if (subContainer.style.maxHeight === '0px' || !subContainer.style.maxHeight) {
-				subContainer.style.maxHeight = subContainer.scrollHeight + 'px';
+				// subContainer.style.maxHeight = subContainer.scrollHeight + 'px';
+				subContainer.style.maxHeight = '300px';
+				subContainer.style.overflow = 'auto';
 				toggleIcon.classList.add('rotate-180');
 			} else {
 				subContainer.style.maxHeight = '0px';
