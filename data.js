@@ -6,9 +6,21 @@ const goCategories = [
 		icon: 'fa-hand-paper-o',
 		color: 'from-blue-500 to-blue-700',
 		subCategories: [
-			{ id: 'capture-basic', name: '扭羊头', link: 'https://www.101weiqi.cn/mytag/%E6%89%AD%E7%BE%8A%E5%A4%B4/' },
-			{ id: 'capture-advanced', name: '一口气吃子01', link: 'https://www.101weiqi.cn/book/5121/8973/' },
-			{ id: 'capture-exercise', name: '一口气吃子02', link: 'https://www.101weiqi.cn/book/5121/87089/' }
+			{ name: '提子01', link: 'https://www.101weiqi.cn/book/5121/8973/' },
+			{ name: '提子02', link: 'https://www.101weiqi.cn/book/5121/87089/' },
+			{ name: '打吃的方向01', link: 'https://www.101weiqi.cn/book/5121/8988/' },
+			{ name: '打吃的方向02', link: 'https://www.101weiqi.cn/book/27040/13623/' },
+			{ name: '打吃的方向03', link: 'https://www.101weiqi.cn/book/27040/92810/' },
+			{ name: '打吃的方向04', link: 'https://www.101weiqi.cn/book/27040/92811/' },
+			{ name: '打吃的方向05', link: 'https://www.101weiqi.cn/book/27040/92812/' },
+			{ name: '打吃的方向06', link: 'https://www.101weiqi.cn/book/27040/92813/' },
+			{ name: '向一线方向打吃01', link: 'https://www.101weiqi.cn/book/25369/98794/' },
+			{ name: '向己方方向打吃01', link: 'https://www.101weiqi.cn/book/25369/98795/' },
+			{ name: '逃跑的方向01', link: 'https://www.101weiqi.cn/book/5121/10208/' },
+			{ name: '逃跑的方向02', link: 'https://www.101weiqi.cn/book/27040/56490/' },
+			{ name: '逃跑的方向03', link: 'https://www.101weiqi.cn/book/27040/56706/' },
+			{ name: '逃跑的方向04', link: 'https://www.101weiqi.cn/book/27040/56707/' },
+			{ name: '逃跑的方向05', link: 'https://www.101weiqi.cn/book/27040/56708/' },
 		]
 	},
 	{
@@ -17,9 +29,16 @@ const goCategories = [
 		icon: 'fa-map-o',
 		color: 'from-green-500 to-green-700',
 		subCategories: [
-			{ id: 'layout-opening', name: '连接01', link: 'https://www.101weiqi.cn/mytag/%E8%BF%9E%E6%8E%A5/' },
-			{ id: 'layout-territory', name: '切断01', link: 'https://www.101weiqi.cn/mytag/%E5%88%87%E6%96%AD/' },
-			{ id: 'layout-joseki', name: '连接分断01', link: 'https://www.101weiqi.cn/book/5121/8976/' }
+			{ name: '连接01', link: 'https://www.101weiqi.cn/mytag/%E8%BF%9E%E6%8E%A5/' },
+			{ name: '连接02', link: 'https://www.101weiqi.cn/book/27040/13617/' },
+			{ name: '切断01', link: 'https://www.101weiqi.cn/book/25369/98793/' },
+			{ name: '切断01', link: 'https://www.101weiqi.cn/mytag/%E5%88%87%E6%96%AD/' },
+			{ name: '连接分断01', link: 'https://www.101weiqi.cn/book/5121/8976/' },
+			{ name: '连接分断弱棋01', link: 'https://www.101weiqi.cn/book/5121/18723/' },
+			{ name: '断点', link: 'https://www.101weiqi.cn/book/27040/13615/' },
+			{ name: '真假断点01', link: 'https://www.101weiqi.cn/book/27040/13619/' },
+			{ name: '真假断点02', link: 'https://www.101weiqi.cn/book/25369/133232/' },
+			{ name: '一块棋的概念', link: 'https://www.101weiqi.cn/book/27040/13612/' },
 		]
 	},
 	{
@@ -28,9 +47,63 @@ const goCategories = [
 		icon: 'fa-chess',
 		color: 'from-purple-500 to-purple-700',
 		subCategories: [
-			{ id: 'midgame-attack', name: '禁入点01', link: 'https://www.101weiqi.cn/book/5121/8974/' },
-			{ id: 'midgame-defense', name: '禁入点02', link: 'https://www.101weiqi.cn/book/5121/87440/' },
-			{ id: 'midgame-fight', name: '虎口', link: 'https://www.101weiqi.cn/book/5121/12822/' }
+			{ name: '禁入点01', link: 'https://www.101weiqi.cn/book/5121/8974/' },
+			{ name: '禁入点02', link: 'https://www.101weiqi.cn/book/5121/87440/' },
+			{ name: '禁入点03', link: 'https://www.101weiqi.cn/book/27040/13610/' },
+			{ name: '虎口01', link: 'https://www.101weiqi.cn/book/5121/12822/' },
+			{ name: '虎口02', link: 'https://www.101weiqi.cn/book/27040/13618/' },
+			{ name: '紧气与长气01', link: 'https://www.101weiqi.cn/book/5121/89562/' },
+			{ name: '紧气与长气02', link: 'https://www.101weiqi.cn/book/5121/89563/' },
+			{ name: '紧气与长气03', link: 'https://www.101weiqi.cn/book/25369/75476/' },
+			{ name: '紧气01', link: 'https://www.101weiqi.cn/book/27040/97844/' },
+			{ name: '长气01', link: 'https://www.101weiqi.cn/book/27040/97845/' },
+			{ name: '可逃之子与应弃之子', link: 'https://www.101weiqi.cn/book/27040/13613/' },
+			{ name: '棋筋与废子', link: 'https://www.101weiqi.cn/book/25369/75403/' },
+			{ name: '好形与坏形01', link: 'https://www.101weiqi.cn/book/27040/97848/' },
+			{ name: '好棋与坏棋01', link: 'https://www.101weiqi.cn/book/27040/97847/' },
+		]
+	},
+	{
+		id: 'midgame',
+		name: '吃子技巧',
+		icon: 'fa-chess',
+		color: 'from-purple-500 to-purple-700',
+		subCategories: [
+			{ name: '关门吃01', link: 'https://www.101weiqi.cn/book/5121/8977/' },
+			{ name: '关门吃02', link: 'https://www.101weiqi.cn/book/5121/83268/' },
+			{ name: '关门吃03', link: 'https://www.101weiqi.cn/book/27040/13626/' },
+			{ name: '关门吃04', link: 'https://www.101weiqi.cn/book/25369/133228/' },
+			{ name: '双打吃01', link: 'https://www.101weiqi.cn/book/5121/8978/' },
+			{ name: '双打吃02', link: 'https://www.101weiqi.cn/book/27040/13622/' },
+			{ name: '双打吃03', link: 'https://www.101weiqi.cn/book/25369/98797/' },
+			{ name: '断吃01', link: 'https://www.101weiqi.cn/book/27040/13624/' },
+			{ name: '断吃02', link: 'https://www.101weiqi.cn/book/25369/98796/' },
+			{ name: '抱吃01', link: 'https://www.101weiqi.cn/book/5121/8979/' },
+			{ name: '抱吃02', link: 'https://www.101weiqi.cn/book/27040/13625/' },
+			{ name: '抱吃03', link: 'https://www.101weiqi.cn/book/25369/133229/' },
+			{ name: '征吃01', link: 'https://www.101weiqi.cn/book/5121/8980/' },
+			{ name: '征吃02', link: 'https://www.101weiqi.cn/book/5121/101779/' },
+			{ name: '征吃03', link: 'https://www.101weiqi.cn/book/5121/60066/' },
+			{ name: '征吃04', link: 'https://www.101weiqi.cn/book/27040/13627/' },
+			{ name: '枷吃01', link: 'https://www.101weiqi.cn/book/5121/8981/' },
+			{ name: '枷吃02', link: 'https://www.101weiqi.cn/book/5121/85290/' },
+			{ name: '枷吃03', link: 'https://www.101weiqi.cn/book/27040/13628/' },
+			{ name: '倒扑01', link: 'https://www.101weiqi.cn/book/5121/8982/' },
+			{ name: '倒扑02', link: 'https://www.101weiqi.cn/book/27040/97842/' },
+			{ name: '接不归01', link: 'https://www.101weiqi.cn/book/5121/8983/' },
+			{ name: '接不归02', link: 'https://www.101weiqi.cn/book/27040/97841/' },
+			{ name: '接不归03', link: 'https://www.101weiqi.cn/book/25369/10534/' },
+		]
+	},
+	{
+		id: 'endgame',
+		name: '对杀',
+		icon: 'fa-calculator',
+		color: 'from-red-500 to-red-700',
+		subCategories: [
+			{ name: '基本对杀01', link: 'https://www.101weiqi.cn/book/5121/19320/' },
+			{ name: '目数计算', link: './subpages/endgame-count.html' },
+			{ name: '高级官子技巧', link: './subpages/endgame-advanced.html' }
 		]
 	},
 	{
@@ -39,9 +112,9 @@ const goCategories = [
 		icon: 'fa-calculator',
 		color: 'from-red-500 to-red-700',
 		subCategories: [
-			{ id: 'endgame-basic', name: '官子基础', link: './subpages/endgame-basic.html' },
-			{ id: 'endgame-count', name: '目数计算', link: './subpages/endgame-count.html' },
-			{ id: 'endgame-advanced', name: '高级官子技巧', link: './subpages/endgame-advanced.html' }
+			{ name: '官子基础', link: './subpages/endgame-basic.html' },
+			{ name: '目数计算', link: './subpages/endgame-count.html' },
+			{ name: '高级官子技巧', link: './subpages/endgame-advanced.html' }
 		]
 	},
 	{
@@ -50,9 +123,9 @@ const goCategories = [
 		icon: 'fa-magic',
 		color: 'from-yellow-500 to-yellow-700',
 		subCategories: [
-			{ id: 'tactics-basic', name: '基础手筋', link: './subpages/tactics-basic.html' },
-			{ id: 'tactics-advanced', name: '高级手筋', link: './subpages/tactics-advanced.html' },
-			{ id: 'tactics-exercise', name: '手筋练习题', link: './subpages/tactics-exercise.html' }
+			{ name: '基础手筋', link: './subpages/tactics-basic.html' },
+			{ name: '高级手筋', link: './subpages/tactics-advanced.html' },
+			{ name: '手筋练习题', link: './subpages/tactics-exercise.html' }
 		]
 	},
 	{
@@ -61,9 +134,9 @@ const goCategories = [
 		icon: 'fa-heartbeat',
 		color: 'from-pink-500 to-pink-700',
 		subCategories: [
-			{ id: 'life-death-basic', name: '基础死活型', link: './subpages/life-death-basic.html' },
-			{ id: 'life-death-advanced', name: '复杂死活题', link: './subpages/life-death-advanced.html' },
-			{ id: 'life-death-training', name: '死活特训', link: './subpages/life-death-training.html' }
+			{ name: '简单做眼与破眼01', link: 'https://www.101weiqi.cn/book/5121/8984/' },
+			{ name: '眼与眼角01', link: 'https://www.101weiqi.cn/book/25369/75469/' },
+			{ name: '真眼与假眼01', link: 'https://www.101weiqi.cn/book/25369/75468/' }
 		]
 	}
 ];
