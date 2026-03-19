@@ -65,7 +65,7 @@ const goCategories = [
 		id: 'c-04',
 		name: '吃子技巧',
 		icon: 'fa-chess',
-		color: 'from-purple-500 to-purple-700',
+		color: 'from-blue-500 to-blue-700',
 		subCategories: [
 			{ name: '关门吃01', link: 'https://www.101weiqi.cn/book/5121/8977/' },
 			{ name: '关门吃02', link: 'https://www.101weiqi.cn/book/5121/83268/' },
