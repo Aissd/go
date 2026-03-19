@@ -1,7 +1,7 @@
 // ==================== 核心配置区 - 你可以在这里修改分类数据 ====================
 const goCategories = [
 	{
-		id: 'capture',
+		id: 'c-01',
 		name: '启蒙吃子',
 		icon: 'fa-hand-paper-o',
 		color: 'from-blue-500 to-blue-700',
@@ -24,29 +24,29 @@ const goCategories = [
 		]
 	},
 	{
-		id: 'layout',
+		id: 'c-02',
 		name: '启蒙手筋',
 		icon: 'fa-map-o',
 		color: 'from-green-500 to-green-700',
 		subCategories: [
-			{ name: '连接01', link: 'https://www.101weiqi.cn/mytag/%E8%BF%9E%E6%8E%A5/' },
-			{ name: '连接02', link: 'https://www.101weiqi.cn/book/27040/13617/' },
+			{ name: '连接01', link: 'https://www.101weiqi.cn/book/27040/13617/' },
 			{ name: '切断01', link: 'https://www.101weiqi.cn/book/25369/98793/' },
-			{ name: '切断01', link: 'https://www.101weiqi.cn/mytag/%E5%88%87%E6%96%AD/' },
 			{ name: '连接分断01', link: 'https://www.101weiqi.cn/book/5121/8976/' },
 			{ name: '连接分断弱棋01', link: 'https://www.101weiqi.cn/book/5121/18723/' },
 			{ name: '断点', link: 'https://www.101weiqi.cn/book/27040/13615/' },
 			{ name: '真假断点01', link: 'https://www.101weiqi.cn/book/27040/13619/' },
 			{ name: '真假断点02', link: 'https://www.101weiqi.cn/book/25369/133232/' },
-			{ name: '一块棋的概念', link: 'https://www.101weiqi.cn/book/27040/13612/' },
+			{ name: '棋筋与废子', link: 'https://www.101weiqi.cn/book/25369/75403/' },
+			{ name: '可逃之子与应弃之子', link: 'https://www.101weiqi.cn/book/27040/13613/' },
 		]
 	},
 	{
-		id: 'midgame',
+		id: 'c-03',
 		name: '启蒙知识点',
 		icon: 'fa-chess',
 		color: 'from-purple-500 to-purple-700',
 		subCategories: [
+			{ name: '一块棋的概念', link: 'https://www.101weiqi.cn/book/27040/13612/' },
 			{ name: '禁入点01', link: 'https://www.101weiqi.cn/book/5121/8974/' },
 			{ name: '禁入点02', link: 'https://www.101weiqi.cn/book/5121/87440/' },
 			{ name: '禁入点03', link: 'https://www.101weiqi.cn/book/27040/13610/' },
@@ -57,14 +57,12 @@ const goCategories = [
 			{ name: '紧气与长气03', link: 'https://www.101weiqi.cn/book/25369/75476/' },
 			{ name: '紧气01', link: 'https://www.101weiqi.cn/book/27040/97844/' },
 			{ name: '长气01', link: 'https://www.101weiqi.cn/book/27040/97845/' },
-			{ name: '可逃之子与应弃之子', link: 'https://www.101weiqi.cn/book/27040/13613/' },
-			{ name: '棋筋与废子', link: 'https://www.101weiqi.cn/book/25369/75403/' },
 			{ name: '好形与坏形01', link: 'https://www.101weiqi.cn/book/27040/97848/' },
 			{ name: '好棋与坏棋01', link: 'https://www.101weiqi.cn/book/27040/97847/' },
 		]
 	},
 	{
-		id: 'midgame',
+		id: 'c-04',
 		name: '吃子技巧',
 		icon: 'fa-chess',
 		color: 'from-purple-500 to-purple-700',
@@ -96,40 +94,40 @@ const goCategories = [
 		]
 	},
 	{
-		id: 'endgame',
+		id: 'c-05',
 		name: '对杀',
 		icon: 'fa-calculator',
 		color: 'from-red-500 to-red-700',
 		subCategories: [
 			{ name: '基本对杀01', link: 'https://www.101weiqi.cn/book/5121/19320/' },
-			{ name: '目数计算', link: './subpages/endgame-count.html' },
-			{ name: '高级官子技巧', link: './subpages/endgame-advanced.html' }
+			// { name: '目数计算', link: './subpages/endgame-count.html' },
+			// { name: '高级官子技巧', link: './subpages/endgame-advanced.html' }
 		]
 	},
+	// {
+	// 	id: 'c-06',
+	// 	name: '官子',
+	// 	icon: 'fa-calculator',
+	// 	color: 'from-red-500 to-red-700',
+	// 	subCategories: [
+	// 		{ name: '官子基础', link: './subpages/endgame-basic.html' },
+	// 		{ name: '目数计算', link: './subpages/endgame-count.html' },
+	// 		{ name: '高级官子技巧', link: './subpages/endgame-advanced.html' }
+	// 	]
+	// },
+	// {
+	// 	id: 'c-07',
+	// 	name: '手筋',
+	// 	icon: 'fa-magic',
+	// 	color: 'from-yellow-500 to-yellow-700',
+	// 	subCategories: [
+	// 		{ name: '基础手筋', link: './subpages/tactics-basic.html' },
+	// 		{ name: '高级手筋', link: './subpages/tactics-advanced.html' },
+	// 		{ name: '手筋练习题', link: './subpages/tactics-exercise.html' }
+	// 	]
+	// },
 	{
-		id: 'endgame',
-		name: '官子',
-		icon: 'fa-calculator',
-		color: 'from-red-500 to-red-700',
-		subCategories: [
-			{ name: '官子基础', link: './subpages/endgame-basic.html' },
-			{ name: '目数计算', link: './subpages/endgame-count.html' },
-			{ name: '高级官子技巧', link: './subpages/endgame-advanced.html' }
-		]
-	},
-	{
-		id: 'tactics',
-		name: '手筋',
-		icon: 'fa-magic',
-		color: 'from-yellow-500 to-yellow-700',
-		subCategories: [
-			{ name: '基础手筋', link: './subpages/tactics-basic.html' },
-			{ name: '高级手筋', link: './subpages/tactics-advanced.html' },
-			{ name: '手筋练习题', link: './subpages/tactics-exercise.html' }
-		]
-	},
-	{
-		id: 'life-death',
+		id: 'c-08',
 		name: '死活',
 		icon: 'fa-heartbeat',
 		color: 'from-pink-500 to-pink-700',
