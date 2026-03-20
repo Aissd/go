@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			const listItem = document.createElement('li');
 			listItem.className = 'border-b border-gray-100 pb-2 last:border-0 last:pb-0';
 			listItem.innerHTML = `
-				<a href="${sub.link}" class="flex items-center py-2 px-3 rounded-lg hover:bg-gray-100 transition-colors duration-200 text-gray-700 hover:text-gray-900">
+				<a href="${sub.link}" target="_blank" class="flex items-center py-2 px-3 rounded-lg hover:bg-gray-100 transition-colors duration-200 text-gray-700 hover:text-gray-900">
 					<i class="fa fa-angle-right mr-2 text-gray-400"></i>
 					${sub.name}
 				</a>
