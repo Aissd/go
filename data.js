@@ -21,6 +21,7 @@ const goCategories = [
 			{ name: '逃跑的方向03', link: 'https://www.101weiqi.cn/book/27040/56706/' },
 			{ name: '逃跑的方向04', link: 'https://www.101weiqi.cn/book/27040/56707/' },
 			{ name: '逃跑的方向05', link: 'https://www.101weiqi.cn/book/27040/56708/' },
+			{ name: '逃跑的方向06', link: 'https://www.101weiqi.cn/book/5120/10329/' },
 		]
 	},
 	{
@@ -59,6 +60,7 @@ const goCategories = [
 			{ name: '长气01', link: 'https://www.101weiqi.cn/book/27040/97845/' },
 			{ name: '好形与坏形01', link: 'https://www.101weiqi.cn/book/27040/97848/' },
 			{ name: '好棋与坏棋01', link: 'https://www.101weiqi.cn/book/27040/97847/' },
+			{ name: '提高观察力01', link: 'https://www.101weiqi.cn/book/5121/18131/' },
 		]
 	},
 	{
@@ -91,6 +93,8 @@ const goCategories = [
 			{ name: '接不归01', link: 'https://www.101weiqi.cn/book/5121/8983/' },
 			{ name: '接不归02', link: 'https://www.101weiqi.cn/book/27040/97841/' },
 			{ name: '接不归03', link: 'https://www.101weiqi.cn/book/25369/10534/' },
+			{ name: '一路线吃子01', link: 'https://www.101weiqi.cn/book/5120/8968/' },
+			{ name: '二路线吃子01', link: 'https://www.101weiqi.cn/book/5120/8969/' },
 		]
 	},
 	{
