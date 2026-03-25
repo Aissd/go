@@ -73,14 +73,17 @@ const goCategories = [
 			{ name: '关门吃02', link: 'https://www.101weiqi.cn/book/5121/83268/' },
 			{ name: '关门吃03', link: 'https://www.101weiqi.cn/book/27040/13626/' },
 			{ name: '关门吃04', link: 'https://www.101weiqi.cn/book/25369/133228/' },
+			{ name: '关门吃05', link: 'https://www.101weiqi.cn/book/3319/' },
 			{ name: '双打吃01', link: 'https://www.101weiqi.cn/book/5121/8978/' },
 			{ name: '双打吃02', link: 'https://www.101weiqi.cn/book/27040/13622/' },
 			{ name: '双打吃03', link: 'https://www.101weiqi.cn/book/25369/98797/' },
+			{ name: '双打吃04', link: 'https://www.101weiqi.cn/book/3318/' },
 			{ name: '断吃01', link: 'https://www.101weiqi.cn/book/27040/13624/' },
 			{ name: '断吃02', link: 'https://www.101weiqi.cn/book/25369/98796/' },
 			{ name: '抱吃01', link: 'https://www.101weiqi.cn/book/5121/8979/' },
 			{ name: '抱吃02', link: 'https://www.101weiqi.cn/book/27040/13625/' },
 			{ name: '抱吃03', link: 'https://www.101weiqi.cn/book/25369/133229/' },
+			{ name: '抱吃04', link: 'https://www.101weiqi.cn/book/3234/' },
 			{ name: '征吃01', link: 'https://www.101weiqi.cn/book/5121/8980/' },
 			{ name: '征吃02', link: 'https://www.101weiqi.cn/book/5121/101779/' },
 			{ name: '征吃03', link: 'https://www.101weiqi.cn/book/5121/60066/' },
@@ -88,11 +91,14 @@ const goCategories = [
 			{ name: '枷吃01', link: 'https://www.101weiqi.cn/book/5121/8981/' },
 			{ name: '枷吃02', link: 'https://www.101weiqi.cn/book/5121/85290/' },
 			{ name: '枷吃03', link: 'https://www.101weiqi.cn/book/27040/13628/' },
+			{ name: '枷吃04', link: 'https://www.101weiqi.cn/book/3320/5581/' },
 			{ name: '倒扑01', link: 'https://www.101weiqi.cn/book/5121/8982/' },
 			{ name: '倒扑02', link: 'https://www.101weiqi.cn/book/27040/97842/' },
+			{ name: '倒扑03', link: 'https://www.101weiqi.cn/book/3324/' },
 			{ name: '接不归01', link: 'https://www.101weiqi.cn/book/5121/8983/' },
 			{ name: '接不归02', link: 'https://www.101weiqi.cn/book/27040/97841/' },
 			{ name: '接不归03', link: 'https://www.101weiqi.cn/book/25369/10534/' },
+			{ name: '接不归04', link: 'https://www.101weiqi.cn/book/3323/' },
 			{ name: '一路线吃子01', link: 'https://www.101weiqi.cn/book/5120/8968/' },
 			{ name: '二路线吃子01', link: 'https://www.101weiqi.cn/book/5120/8969/' },
 		]
@@ -108,17 +114,15 @@ const goCategories = [
 			// { name: '高级官子技巧', link: './subpages/endgame-advanced.html' }
 		]
 	},
-	// {
-	// 	id: 'c-06',
-	// 	name: '官子',
-	// 	icon: 'fa-calculator',
-	// 	color: 'from-red-500 to-red-700',
-	// 	subCategories: [
-	// 		{ name: '官子基础', link: './subpages/endgame-basic.html' },
-	// 		{ name: '目数计算', link: './subpages/endgame-count.html' },
-	// 		{ name: '高级官子技巧', link: './subpages/endgame-advanced.html' }
-	// 	]
-	// },
+	{
+		id: 'c-06',
+		name: '官子',
+		icon: 'fa-calculator',
+		color: 'from-red-500 to-red-700',
+		subCategories: [
+			{ name: '收官01', link: 'https://www.101weiqi.cn/book/2032/3764/' },
+		]
+	},
 	// {
 	// 	id: 'c-07',
 	// 	name: '手筋',
@@ -138,7 +142,8 @@ const goCategories = [
 		subCategories: [
 			{ name: '简单做眼与破眼01', link: 'https://www.101weiqi.cn/book/5121/8984/' },
 			{ name: '眼与眼角01', link: 'https://www.101weiqi.cn/book/25369/75469/' },
-			{ name: '真眼与假眼01', link: 'https://www.101weiqi.cn/book/25369/75468/' }
+			{ name: '真眼与假眼01', link: 'https://www.101weiqi.cn/book/25369/75468/' },
+			{ name: '一点死一补活01', link: 'https://www.101weiqi.cn/book/3421/139327/' }
 		]
 	}
 ];
