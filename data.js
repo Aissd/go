@@ -145,5 +145,20 @@ const goCategories = [
 			{ name: '真眼与假眼01', link: 'https://www.101weiqi.cn/book/25369/75468/' },
 			{ name: '一点死一补活01', link: 'https://www.101weiqi.cn/book/3421/139327/' }
 		]
+	},
+	{
+		id: 'c-09',
+		name: '打吃后的那个',
+		icon: 'fa-heartbeat',
+		color: 'from-pink-500 to-pink-700',
+		subCategories: [
+			{ name: '打吃后的征吃', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E5%BE%81%E5%90%83/' },
+			{ name: '打吃后的双打吃', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E5%8F%8C%E6%89%93%E5%90%83/' },
+			{ name: '打吃后的枷吃', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E6%9E%B7%E5%90%83/' },
+			{ name: '打吃后的倒扑', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E5%80%92%E6%89%91/' },
+			{ name: '打吃后的连接', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E8%BF%9E%E6%8E%A5/' },
+			{ name: '打吃后的逃跑', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E9%80%83%E8%B7%91/' },
+			{ name: '打吃后的吃子', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E5%90%83%E5%AD%90/' },
+		]
 	}
 ];
