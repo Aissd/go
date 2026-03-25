@@ -156,11 +156,12 @@ const goCategories = [
 			{ name: '打吃后的双打吃', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E5%8F%8C%E6%89%93%E5%90%83/' },
 			{ name: '打吃后的枷吃', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E6%9E%B7%E5%90%83/' },
 			{ name: '打吃后的倒扑', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E5%80%92%E6%89%91/' },
-			{ name: '打吃后的连接', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E8%BF%9E%E6%8E%A5/' },
-			{ name: '打吃后的逃跑', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E9%80%83%E8%B7%91/' },
 			{ name: '打吃后的抱吃', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E6%8A%B1%E5%90%83/' },
 			{ name: '打吃后的关门吃', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E5%85%B3%E9%97%A8%E5%90%83/' },
+			{ name: '打吃后的接不归', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E6%8E%A5%E4%B8%8D%E5%BD%92/' },
 			{ name: '打吃后的吃子', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E5%90%83%E5%AD%90/' },
+			{ name: '打吃后的连接', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E8%BF%9E%E6%8E%A5/' },
+			{ name: '打吃后的逃跑', link: 'https://www.101weiqi.cn/mytag/%E6%89%93%E5%90%83%E5%90%8E%E7%9A%84%E9%80%83%E8%B7%91/' },
 		]
 	}
 ];
