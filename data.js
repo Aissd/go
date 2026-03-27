@@ -143,12 +143,13 @@ const goCategories = [
 			{ name: '简单做眼与破眼01', link: 'https://www.101weiqi.cn/book/5121/8984/' },
 			{ name: '眼与眼角01', link: 'https://www.101weiqi.cn/book/25369/75469/' },
 			{ name: '真眼与假眼01', link: 'https://www.101weiqi.cn/book/25369/75468/' },
-			{ name: '一点死一补活01', link: 'https://www.101weiqi.cn/book/3421/139327/' }
+			{ name: '一点死一补活01', link: 'https://www.101weiqi.cn/book/3421/139327/' },
+			{ name: '死活基本型01', link: 'https://www.101weiqi.cn/book/5120/8960/' }
 		]
 	},
 	{
 		id: 'c-09',
-		name: '打吃后的那个',
+		name: '打吃后的那啥',
 		icon: 'fa-heartbeat',
 		color: 'from-pink-500 to-pink-700',
 		subCategories: [
