@@ -144,6 +144,7 @@ const goCategories = [
 			{ name: '眼与眼角01', link: 'https://www.101weiqi.cn/book/25369/75469/' },
 			{ name: '真眼与假眼01', link: 'https://www.101weiqi.cn/book/25369/75468/' },
 			{ name: '一点死一补活01', link: 'https://www.101weiqi.cn/book/3421/139327/' },
+			{ name: '一点死一补活02', link: 'https://www.101weiqi.cn/book/3421' },
 			{ name: '死活基本型01', link: 'https://www.101weiqi.cn/book/5120/8960/' }
 		]
 	},
